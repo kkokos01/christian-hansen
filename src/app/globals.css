@@ -2,20 +2,47 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
+@layer base {
+  ::selection {
+    @apply bg-accent text-primary;
+  }
+  
+  html {
+    @apply scroll-smooth;
+  }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+  body {
+    @apply text-primary-dark leading-relaxed;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply text-primary font-light tracking-wide;
   }
 }
 
-body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+@layer components {
+  .btn {
+    @apply inline-flex items-center justify-center px-6 py-3 text-sm tracking-wider font-medium transition-all duration-200;
+  }
+
+  .btn-primary {
+    @apply btn bg-primary text-white hover:bg-primary-light;
+  }
+
+  .btn-outline {
+    @apply btn border border-primary/20 text-primary hover:bg-accent/50;
+  }
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  @apply w-2;
+}
+
+::-webkit-scrollbar-track {
+  @apply bg-accent/30;
+}
+
+::-webkit-scrollbar-thumb {
+  @apply bg-primary/40 hover:bg-primary/60 rounded-full;
 }
