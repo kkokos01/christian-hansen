@@ -71,7 +71,7 @@ export default function Contact() {
         <div className="max-w-7xl mx-auto text-center">
           <h1 className="text-4xl sm:text-5xl lg:text-6xl font-light mb-6">Contact</h1>
           <p className="text-xl text-accent/90 max-w-2xl mx-auto font-light tracking-wide">
-            Interested in Christian's work? Get in touch for inquiries about exhibitions,
+            Interested in Christian&apos;s work? Get in touch for inquiries about exhibitions,
             commissions, or artwork availability.
           </p>
         </div>
@@ -197,7 +197,7 @@ export default function Contact() {
                   United States
                 </p>
                 <p className="text-primary/60">
-                  Located in the heart of Brooklyn's vibrant art district
+                  Located in the heart of Brooklyn&apos;s vibrant art district
                 </p>
               </div>
             </div>

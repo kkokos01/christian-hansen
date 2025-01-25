@@ -27,7 +27,7 @@ export default function About() {
             <div>
               <h2 className="text-2xl text-primary mb-6 font-light">Biography</h2>
               <p className="text-primary/80 leading-relaxed">
-                Christian Hansen's work explores the intersection of classical techniques and contemporary themes.
+                Christian Hansen&apos;s work explores the intersection of classical techniques and contemporary themes.
                 With a background in both traditional painting and modern sculpture, his pieces reflect a unique
                 blend of old and new, creating compelling narratives that resonate with viewers.
               </p>
@@ -36,9 +36,9 @@ export default function About() {
             <div>
               <h2 className="text-2xl text-primary mb-6 font-light">Artist Statement</h2>
               <blockquote className="text-primary/80 leading-relaxed border-l-2 border-accent pl-6 italic">
-                "My work seeks to bridge the gap between traditional artistic methods and contemporary
+                &quot;My work seeks to bridge the gap between traditional artistic methods and contemporary
                 expression. Through my paintings and sculptures, I explore themes of urban life, nature,
-                and human connection in the modern world."
+                and human connection in the modern world.&quot;
               </blockquote>
             </div>
 
